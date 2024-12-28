@@ -41,6 +41,10 @@ main {
   #customer-2 .testimonial__info {
     text-align: left;
   }
+
+  #customer-2:hover .testimonial__image-container {
+    animation: flip-customer 1s ease-out forwards;
+  }
   
   .testimonial__name {
     margin: 0.2rem;
